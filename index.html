@@ -3,10 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>이윤재</title>
-  <meta name="description" content="Tanium으로 엔드포인트를 관리하는 시스템 엔지니어">
+  <title>이윤재 · 시스템 엔지니어</title>
+  <meta name="description" content="Tanium으로 엔드포인트를 관리하는 시스템 엔지니어 이윤재의 포트폴리오">
+  <meta property="og:title" content="이윤재 · 시스템 엔지니어">
+  <meta property="og:description" content="Tanium으로 엔드포인트를 관리하는 시스템 엔지니어">
   <meta name="color-scheme" content="light dark">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232f5d50'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
   <link rel="stylesheet" href="style.css">
   <!-- 첫 화면이 깜빡이지 않도록 저장된 테마를 먼저 적용 -->
   <script>
@@ -17,141 +20,221 @@
   <a class="skip" href="#main">본문으로 건너뛰기</a>
 
   <header class="topbar">
-    <span class="mark" aria-hidden="true"></span>
-    <nav aria-label="섹션">
-      <a href="#career">경력</a>
-      <a href="#education">학력</a>
-      <a href="#projects">프로젝트</a>
-      <a href="#contact">연락처</a>
-    </nav>
-    <button class="theme-toggle" type="button" aria-label="다크 모드 전환">
-      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z" fill="currentColor"/></svg>
-    </button>
+    <div class="topbar-in">
+      <a class="brand" href="#top"><span class="mark" aria-hidden="true"></span>이윤재</a>
+      <nav aria-label="섹션">
+        <a href="#about">소개</a>
+        <a href="#skills">기술</a>
+        <a href="#career">경력</a>
+        <a href="#projects">프로젝트</a>
+        <a href="#contact">연락처</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="다크 모드 전환">
+        <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z" fill="currentColor"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></svg>
+      </button>
+    </div>
   </header>
 
   <main id="main">
-    <!-- 소개 -->
-    <section class="intro">
-      <h1>이윤재</h1>
-      <p class="lede">Tanium으로 엔드포인트를 관리하는 시스템 엔지니어</p>
-    </section>
-
-    <!-- 경력: 항목을 늘리려면 <li class="entry"> 블록을 복사하세요 -->
-    <section id="career" class="block">
-      <h2><span class="num">01</span>경력</h2>
-      <ol class="list">
-        <li class="entry">
-          <p class="when">2025.11 – 현재</p>
-          <div>
-            <h3>이테크시스템</h3>
-            <p class="desc">시스템 엔지니어 · Tanium 기반 엔드포인트 관리, PoC 및 유지보수</p>
-          </div>
-        </li>
-        <li class="entry">
-          <p class="when">2025.09 – 2025.11<br>2021.11 – 2024.02</p>
-          <div>
-            <h3>자이온</h3>
-            <p class="desc">시스템 엔지니어 · Tanium 기반 엔드포인트 관리, PoC 및 유지보수</p>
-          </div>
-        </li>
-      </ol>
-    </section>
-
-    <section id="education" class="block">
-      <h2><span class="num">02</span>학력</h2>
-      <ol class="list">
-        <li class="entry">
-          <p class="when">졸업</p>
-          <div>
-            <h3>한양공업고등학교</h3>
-          </div>
-        </li>
-      </ol>
-    </section>
-
-    <!-- 프로젝트: 링크를 걸려면 <h3> 안의 이름을 <a href="주소">이름</a>로 감싸세요 -->
-    <section id="projects" class="block">
-      <h2><span class="num">03</span>프로젝트</h2>
-      <ol class="list">
-        <li class="entry">
-          <p class="when">2026.06 – 현재</p>
-          <div>
-            <h3>Tanium 납품 및 유지보수</h3>
-            <p class="desc">A 엔터사<span class="tag">Security</span></p>
-          </div>
-        </li>
-        <li class="entry">
-          <p class="when">2026.04 – 2026.06</p>
-          <div>
-            <h3>Tanium PoC</h3>
-            <p class="desc">A 엔터사<span class="tag">Security</span></p>
-          </div>
-        </li>
-        <li class="entry">
-          <p class="when">2025.09 – 2025.11</p>
-          <div>
-            <h3>Tanium 유지보수</h3>
-            <p class="desc">A 거래소<span class="tag">Security</span></p>
-          </div>
-        </li>
-        <li class="entry">
-          <p class="when">2025.09 – 2025.11</p>
-          <div>
-            <h3>Tanium Windows 11 업그레이드 기술 지원</h3>
-            <p class="desc">A 게임사<span class="tag">Security · OS 마이그레이션</span></p>
-          </div>
-        </li>
-        <li class="entry">
-          <p class="when">2023.08 – 2023.11</p>
-          <div>
-            <h3>Tanium PoC</h3>
-            <p class="desc">A 통신사<span class="tag">Security</span></p>
-          </div>
-        </li>
-        <li class="entry">
-          <p class="when">2023.06 – 2023.08</p>
-          <div>
-            <h3>Tanium PoC</h3>
-            <p class="desc">A 은행<span class="tag">Security</span></p>
-          </div>
-        </li>
-        <li class="entry">
-          <p class="when">2023.03 – 2024.02</p>
-          <div>
-            <h3>Tanium 유지보수</h3>
-            <p class="desc">A 게임사<span class="tag">Security</span></p>
-          </div>
-        </li>
-        <li class="entry">
-          <p class="when">2022.07 – 2024.02</p>
-          <div>
-            <h3>Inspur AIStation 유지보수</h3>
-            <p class="desc">A 게임사<span class="tag">AI</span></p>
-          </div>
-        </li>
-        <li class="entry">
-          <p class="when">2022.02 – 2023.02</p>
-          <div>
-            <h3>사이버 위협정보 탐지 업무 지원</h3>
-            <p class="desc">A 공공기관<span class="tag">Security · 위협 탐지</span></p>
-          </div>
-        </li>
-      </ol>
-    </section>
-
-    <!-- 연락처: href 안의 주소도 함께 바꾸세요 -->
-    <section id="contact" class="block">
-      <h2><span class="num">04</span>연락처</h2>
-      <dl class="contact">
-        <div>
-          <dt>이메일</dt>
-          <dd><a href="mailto:sos6258sos@naver.com">sos6258sos@naver.com</a></dd>
+    <!-- 첫 화면 -->
+    <section class="hero" id="top">
+      <svg class="hero-net" viewBox="0 0 600 400" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+        <g class="links">
+          <path d="M300 200 L120 90 M300 200 L470 80 M300 200 L520 250 M300 200 L410 340 M300 200 L170 320 M300 200 L60 220 M120 90 L60 220 M470 80 L520 250 M410 340 L520 250 M170 320 L60 220"/>
+        </g>
+        <g class="nodes">
+          <circle cx="120" cy="90" r="5"/><circle cx="470" cy="80" r="5"/><circle cx="520" cy="250" r="5"/>
+          <circle cx="410" cy="340" r="5"/><circle cx="170" cy="320" r="5"/><circle cx="60" cy="220" r="5"/>
+        </g>
+        <circle class="core" cx="300" cy="200" r="9"/>
+        <circle class="pulse" cx="300" cy="200" r="9"/>
+      </svg>
+      <div class="hero-in">
+        <p class="eyebrow">System Engineer · Endpoint Management</p>
+        <h1>안녕하세요,<br><span class="name">이윤재</span>입니다.</h1>
+        <p class="lede">Tanium으로 엔드포인트를 관리하는 시스템 엔지니어입니다.<br>PoC부터 납품·유지보수까지, 고객사 단말 환경을 현장에서 다룹니다.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#projects">프로젝트 보기</a>
+          <a class="btn ghost" href="#contact">연락하기</a>
         </div>
-        <div>
-          <dt>GitHub</dt>
-          <dd><a href="https://github.com/sos9152" rel="noopener">github.com/sos9152</a></dd>
-        </div>
+      </div>
+      <dl class="stats">
+        <div><dt>총 경력</dt><dd id="stat-career">3년+</dd></div>
+        <div><dt>프로젝트</dt><dd id="stat-projects">9건</dd></div>
+        <div><dt>고객사·기관</dt><dd>6곳</dd></div>
+        <div><dt>Tanium PoC</dt><dd>3건</dd></div>
       </dl>
+    </section>
+
+    <!-- 소개 -->
+    <section id="about" class="block">
+      <div class="head"><span class="num">01</span><h2>소개</h2></div>
+      <div class="about">
+        <p class="about-text">고객사 환경에 Tanium을 처음 검증하는 PoC부터 실제 납품, 운영 중 유지보수와 OS 업그레이드 지원까지 엔드포인트 관리의 전 과정을 맡아 왔습니다. 엔터테인먼트, 게임, 통신, 금융, 가상자산, 공공 분야의 고객사를 지원했습니다.</p>
+        <ul class="facts">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg><span class="k">이름</span><span class="v">이윤재</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg><span class="k">현재</span><span class="v">이테크시스템 · 시스템 엔지니어</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2 9 2 12 0v-5"/></svg><span class="k">학력</span><span class="v">한양공업고등학교 졸업</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><span class="k">이메일</span><span class="v"><a href="mailto:sos6258sos@naver.com">sos6258sos@naver.com</a></span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 기술 -->
+    <section id="skills" class="block">
+      <div class="head"><span class="num">02</span><h2>기술</h2></div>
+      <div class="skills">
+        <div class="skill">
+          <h3>Endpoint Management</h3>
+          <ul class="chips strong"><li>Tanium</li></ul>
+          <p>PoC 설계·진행, 납품·구축, 운영 유지보수</p>
+        </div>
+        <div class="skill">
+          <h3>OS</h3>
+          <ul class="chips"><li>Windows 11</li></ul>
+          <p>Tanium 기반 Windows 11 업그레이드 지원</p>
+        </div>
+        <div class="skill">
+          <h3>Security</h3>
+          <ul class="chips"><li>위협 탐지</li></ul>
+          <p>사이버 위협정보 탐지 업무 지원</p>
+        </div>
+        <div class="skill">
+          <h3>AI Infra</h3>
+          <ul class="chips"><li>Inspur AIStation</li></ul>
+          <p>AI 학습 플랫폼 운영 유지보수</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 경력: 최근 순서 -->
+    <section id="career" class="block">
+      <div class="head"><span class="num">03</span><h2>경력</h2></div>
+      <ol class="timeline">
+        <li data-from="2025-11" data-to="">
+          <p class="when">2025.11 – 현재</p>
+          <h3>이테크시스템 <span class="now">재직 중</span></h3>
+          <p class="desc">시스템 엔지니어 · Tanium 기반 엔드포인트 관리, PoC 및 유지보수</p>
+        </li>
+        <li data-from="2025-09" data-to="2025-11">
+          <p class="when">2025.09 – 2025.11</p>
+          <h3>자이온</h3>
+          <p class="desc">시스템 엔지니어 · Tanium 유지보수, Windows 11 업그레이드 지원</p>
+        </li>
+        <li data-from="2021-11" data-to="2024-02">
+          <p class="when">2021.11 – 2024.02</p>
+          <h3>자이온</h3>
+          <p class="desc">시스템 엔지니어 · Tanium PoC 및 유지보수, AI 플랫폼 유지보수, 위협 탐지 지원</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- 프로젝트: 카드 하나가 <li class="card"> 블록입니다 -->
+    <section id="projects" class="block">
+      <div class="head"><span class="num">04</span><h2>프로젝트</h2></div>
+      <div class="filters" role="group" aria-label="프로젝트 분류">
+        <button type="button" class="on" data-filter="all">전체</button>
+        <button type="button" data-filter="tanium">Tanium</button>
+        <button type="button" data-filter="poc">PoC</button>
+        <button type="button" data-filter="maint">유지보수</button>
+      </div>
+      <ol class="cards">
+        <li class="card" data-cat="tanium maint">
+          <div class="card-top">
+            <span class="client">A 엔터사</span>
+            <span class="field">Security</span>
+          </div>
+          <h3>Tanium 납품 및 유지보수</h3>
+          <p class="period"><span>2026.06 – 현재</span><span class="dur" data-from="2026-06" data-to=""></span></p>
+          <ul class="chips"><li>납품·구축</li><li>유지보수</li><li>기술 지원</li></ul>
+        </li>
+        <li class="card" data-cat="tanium poc">
+          <div class="card-top">
+            <span class="client">A 엔터사</span>
+            <span class="field">Security</span>
+          </div>
+          <h3>Tanium PoC</h3>
+          <p class="period"><span>2026.04 – 2026.06</span><span class="dur" data-from="2026-04" data-to="2026-06"></span></p>
+          <ul class="chips"><li>PoC</li><li>기술 지원</li></ul>
+        </li>
+        <li class="card" data-cat="tanium maint">
+          <div class="card-top">
+            <span class="client">A 거래소</span>
+            <span class="field">Security</span>
+          </div>
+          <h3>Tanium 유지보수</h3>
+          <p class="period"><span>2025.09 – 2025.11</span><span class="dur" data-from="2025-09" data-to="2025-11"></span></p>
+          <ul class="chips"><li>유지보수</li><li>기술 지원</li></ul>
+        </li>
+        <li class="card" data-cat="tanium">
+          <div class="card-top">
+            <span class="client">A 게임사</span>
+            <span class="field">Security</span>
+          </div>
+          <h3>Tanium Windows 11 업그레이드</h3>
+          <p class="period"><span>2025.09 – 2025.11</span><span class="dur" data-from="2025-09" data-to="2025-11"></span></p>
+          <ul class="chips"><li>OS 마이그레이션</li><li>기술 지원</li></ul>
+        </li>
+        <li class="card" data-cat="tanium poc">
+          <div class="card-top">
+            <span class="client">A 통신사</span>
+            <span class="field">Security</span>
+          </div>
+          <h3>Tanium PoC</h3>
+          <p class="period"><span>2023.08 – 2023.11</span><span class="dur" data-from="2023-08" data-to="2023-11"></span></p>
+          <ul class="chips"><li>PoC</li><li>기술 지원</li></ul>
+        </li>
+        <li class="card" data-cat="tanium poc">
+          <div class="card-top">
+            <span class="client">A 은행</span>
+            <span class="field">Security</span>
+          </div>
+          <h3>Tanium PoC</h3>
+          <p class="period"><span>2023.06 – 2023.08</span><span class="dur" data-from="2023-06" data-to="2023-08"></span></p>
+          <ul class="chips"><li>PoC</li><li>기술 지원</li></ul>
+        </li>
+        <li class="card" data-cat="tanium maint">
+          <div class="card-top">
+            <span class="client">A 게임사</span>
+            <span class="field">Security</span>
+          </div>
+          <h3>Tanium 유지보수</h3>
+          <p class="period"><span>2023.03 – 2024.02</span><span class="dur" data-from="2023-03" data-to="2024-02"></span></p>
+          <ul class="chips"><li>유지보수</li><li>기술 지원</li></ul>
+        </li>
+        <li class="card" data-cat="maint">
+          <div class="card-top">
+            <span class="client">A 게임사</span>
+            <span class="field">AI</span>
+          </div>
+          <h3>Inspur AIStation 유지보수</h3>
+          <p class="period"><span>2022.07 – 2024.02</span><span class="dur" data-from="2022-07" data-to="2024-02"></span></p>
+          <ul class="chips"><li>유지보수</li><li>기술 지원</li></ul>
+        </li>
+        <li class="card" data-cat="">
+          <div class="card-top">
+            <span class="client">A 공공기관</span>
+            <span class="field">Security</span>
+          </div>
+          <h3>사이버 위협정보 탐지 업무 지원</h3>
+          <p class="period"><span>2022.02 – 2023.02</span><span class="dur" data-from="2022-02" data-to="2023-02"></span></p>
+          <ul class="chips"><li>위협 탐지</li><li>기술 지원</li></ul>
+        </li>
+      </ol>
+      <p class="note">고객사 보호를 위해 업종으로만 표기했습니다.</p>
+    </section>
+
+    <!-- 연락처 -->
+    <section id="contact" class="contact">
+      <div class="contact-in">
+        <span class="num">05</span>
+        <h2>함께 일할 기회를 찾고 있다면<br>편하게 연락 주세요.</h2>
+        <div class="hero-cta">
+          <a class="btn primary" href="mailto:sos6258sos@naver.com">sos6258sos@naver.com</a>
+          <a class="btn ghost" href="https://github.com/sos9152" rel="noopener">GitHub</a>
+        </div>
+      </div>
     </section>
   </main>
 
